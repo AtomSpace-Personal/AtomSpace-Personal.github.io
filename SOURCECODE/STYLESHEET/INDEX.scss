@@ -1,0 +1,206 @@
+body {
+    background-color: #fff;
+    color: #000;
+
+    margin: 0 0 0 0;
+}
+
+#NAVIGATION {
+    border: none;
+    outline: none;
+
+    position: fixed;
+
+    background-color: #000;
+    color: #fff;
+    
+    margin: 0 0 0 0;
+    float: left;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+
+    z-index: 200;
+
+    #MENUITEM-HOME {
+        border: none;
+        outline: none;
+
+        background-color: #000;
+        color: #fff;
+
+        margin: 0 0 0 0;
+        float: left;
+
+        width: 180px;
+        min-width: 180px;
+        max-width: 180px;
+
+        height: 50px;
+        min-height: 50px;
+        max-height: 50px;
+
+        #MENUITEM-HOMEICON {
+            margin: 0 0 0 0;
+            float: left;
+
+            width: 40px;
+
+            height: 40px;
+        }
+
+        #MENUITEM-HOMETEXT {
+            margin: 10px 5px 0 0;
+            float: right;
+
+            font-family: "Cutive Mono", monospace;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 20px;
+        }
+
+    }
+
+    #MENUITEM-HOME:hover {
+        background-color: #222;
+    }
+
+    #MENUITEM-PROJECTS {
+        border: none;
+        outline: none;
+
+        background-color: #000;
+        color: #fff;
+
+        margin: 0 0 0 0;
+        float: left;
+
+        width: 120px;
+        min-width: 120px;
+        max-width: 120px;
+
+        height: 50px;
+        min-height: 50px;
+        max-height: 50px;
+
+        #MENUITEM-PROJECTSTEXT {
+            margin: 0 0 0 0;
+            float: center;
+
+            font-family: "Cutive Mono", monospace;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 20px;
+        }
+    }
+
+    #MENUITEM-PROJECTS:hover {
+        background-color: #222;
+    }
+
+}
+
+#WELCOMEPAGE {
+    border: none;
+    outline: none;
+
+    background-color: #c2c2c2;
+    color: #fff;
+    
+    margin: 50px 0 0 0;
+    float: left;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: calc(100vh - 50px);
+    min-height: calc(100vh - 50px);
+    max-height: calc(100vh - 50px);
+
+    #WELCOMEPAGE-HEADER {
+        background-color: #fff;
+        color: #000;
+
+        position: absolute;
+
+        top: 50%;
+        left: 50%;
+
+        margin-top: -200px;
+        margin-left: -300px;
+
+        width: 600px;
+        min-width: 600px;
+        max-width: 600px;
+
+        height: 400px;
+        min-height: 400px;
+        max-height: 400px;
+
+        text-align: center;
+
+        z-index: 100;
+
+        #WELCOMEPAGE-HEADERTEXT {
+            margin: 80px 0 0 100px;
+            float: left;
+
+            font-family: "Cutive Mono", monospace;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 50px;
+
+        }
+
+        #WELCOMEPAGE-HEADERBUTTON {
+            border: none;
+            outline: none;
+
+            background-color: #000;
+            color: #FFF;
+
+            margin: 50px 0 0 200px;
+            float: left;
+
+            width: 200px;
+            min-width: 200px;
+            max-width: 200px;
+
+            height: 50px;
+            min-height: 50px;
+            max-height: 50px;
+
+            font-family: "Cutive Mono", monospace;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 20px;
+        }
+
+    }
+
+}
+
+#PROJECTSPAGE {
+    border: none;
+    outline: none;
+
+    background-color: #00788d;
+    color: #fff;
+    
+    margin: 0 0 0 0;
+    float: left;
+
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+}
