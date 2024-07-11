@@ -70,6 +70,10 @@ body {
         background-color: #222;
     }
 
+    #MENUITEM-HOME:active {
+        color: #008aca;
+    }
+
     #MENUITEM-PROJECTS {
         border: none;
         outline: none;
@@ -101,6 +105,10 @@ body {
 
     #MENUITEM-PROJECTS:hover {
         background-color: #222;
+    }
+
+    #MENUITEM-PROJECTS:active {
+        color: #008aca;
     }
 
 }
@@ -182,6 +190,11 @@ body {
             font-size: 20px;
         }
 
+        #WELCOMEPAGE-HEADERBUTTON:hover {
+            color: #008aca;
+
+        }
+
     }
 
 }
@@ -189,6 +202,8 @@ body {
 #PROJECTSPAGE {
     border: none;
     outline: none;
+
+    text-align: center;
 
     background-color: #00788d;
     color: #fff;
@@ -203,4 +218,11 @@ body {
     height: 100vh;
     min-height: 100vh;
     max-height: 100vh;
+
+    #PROJECTSPAGE-TEXT {
+        font-family: "Cutive Mono", monospace;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 80px;
+    }
 }

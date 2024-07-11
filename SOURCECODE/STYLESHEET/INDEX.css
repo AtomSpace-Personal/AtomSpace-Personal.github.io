@@ -51,6 +51,9 @@ body {
 #NAVIGATION #MENUITEM-HOME:hover {
   background-color: #222;
 }
+#NAVIGATION #MENUITEM-HOME:active {
+  color: #008aca;
+}
 #NAVIGATION #MENUITEM-PROJECTS {
   border: none;
   outline: none;
@@ -75,6 +78,9 @@ body {
 }
 #NAVIGATION #MENUITEM-PROJECTS:hover {
   background-color: #222;
+}
+#NAVIGATION #MENUITEM-PROJECTS:active {
+  color: #008aca;
 }
 
 #WELCOMEPAGE {
@@ -134,10 +140,14 @@ body {
   font-weight: 300;
   font-size: 20px;
 }
+#WELCOMEPAGE #WELCOMEPAGE-HEADER #WELCOMEPAGE-HEADERBUTTON:hover {
+  color: #008aca;
+}
 
 #PROJECTSPAGE {
   border: none;
   outline: none;
+  text-align: center;
   background-color: #00788d;
   color: #fff;
   margin: 0 0 0 0;
@@ -148,4 +158,10 @@ body {
   height: 100vh;
   min-height: 100vh;
   max-height: 100vh;
+}
+#PROJECTSPAGE #PROJECTSPAGE-TEXT {
+  font-family: "Cutive Mono", monospace;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 80px;
 }/*# sourceMappingURL=INDEX.css.map */
